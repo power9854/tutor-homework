@@ -16,6 +16,7 @@ public class UserDefinedException2 {
 			System.out.println("입력된 점수는 " + grade);
 		}
 		
+		// 주석 수정 2024-11-05
 		catch (OutOfException e) {
 			System.out.println("0~100점 사이로 입력하시오!");
 		}
